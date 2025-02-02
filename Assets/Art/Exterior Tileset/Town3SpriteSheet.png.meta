@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 85db5b63b6afb944996ab1cb05a8c952
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6344434441773060082
+    second: Town3SpriteSheet_0
+  - first:
+      213: 6539056524973790608
+    second: Town3SpriteSheet_1
+  - first:
+      213: -6666936832548723369
+    second: Town3SpriteSheet_2
+  - first:
+      213: -8736548297285335692
+    second: Town3SpriteSheet_3
+  - first:
+      213: -8337377910238586195
+    second: Town3SpriteSheet_4
+  - first:
+      213: -7482038028914155083
+    second: Town3SpriteSheet_5
+  - first:
+      213: 5012365434545044214
+    second: Town3SpriteSheet_6
+  - first:
+      213: 3952628998904976313
+    second: Town3SpriteSheet_7
+  - first:
+      213: -3837797958041813689
+    second: Town3SpriteSheet_8
+  - first:
+      213: 4167925554090338441
+    second: Town3SpriteSheet_9
+  - first:
+      213: 9084774351342004460
+    second: Town3SpriteSheet_10
+  - first:
+      213: 3441511242338742441
+    second: Town3SpriteSheet_11
+  - first:
+      213: -971690555889671016
+    second: Town3SpriteSheet_12
+  - first:
+      213: 9222621871417714974
+    second: Town3SpriteSheet_13
+  - first:
+      213: -5692139224234257047
+    second: Town3SpriteSheet_14
+  - first:
+      213: -8114147173748657168
+    second: Town3SpriteSheet_15
+  - first:
+      213: -3738883342254244929
+    second: Town3SpriteSheet_16
+  - first:
+      213: 4009517202337710924
+    second: Town3SpriteSheet_17
+  - first:
+      213: 7087881668988065639
+    second: Town3SpriteSheet_18
+  - first:
+      213: 8935476935340462296
+    second: Town3SpriteSheet_19
+  - first:
+      213: 5277686893785261619
+    second: Town3SpriteSheet_20
+  - first:
+      213: 1141802444374271274
+    second: Town3SpriteSheet_21
+  - first:
+      213: 3691937340046407256
+    second: Town3SpriteSheet_22
+  - first:
+      213: 9050115055439090600
+    second: Town3SpriteSheet_23
+  - first:
+      213: -1823547694398198748
+    second: Town3SpriteSheet_24
+  - first:
+      213: 7516050312164618844
+    second: Town3SpriteSheet_25
+  - first:
+      213: -7934842080840463395
+    second: Town3SpriteSheet_26
+  - first:
+      213: -307771670670552311
+    second: Town3SpriteSheet_27
+  - first:
+      213: -4899807811447041672
+    second: Town3SpriteSheet_28
+  - first:
+      213: 6310898444434867399
+    second: Town3SpriteSheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Town3SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 351
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00fc5d4d7a04f7a0800000000000000
+      internalID: -6344434441773060082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 415
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095534993456fba50800000000000000
+      internalID: 6539056524973790608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 367
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75527f316484a73a0800000000000000
+      internalID: -6666936832548723369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 400
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4758341ac9b81c680800000000000000
+      internalID: -8736548297285335692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 351
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa5a06c6feab4c80800000000000000
+      internalID: -8337377910238586195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 305
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1ab92ed067a2890800000000000000
+      internalID: -7482038028914155083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 368
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faf08a5ecf7f8540800000000000000
+      internalID: 5012365434545044214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 335
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b393a0f12f8ad630800000000000000
+      internalID: 3952628998904976313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 287
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74db23737176dbac0800000000000000
+      internalID: -3837797958041813689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 271
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988e3d5753277d930800000000000000
+      internalID: 4167925554090338441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 303
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8e15ca32a931e70800000000000000
+      internalID: 9084774351342004460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 191
+        width: 101
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a03d12bd34b2cf20800000000000000
+      internalID: 3441511242338742441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8942890769cd382f0800000000000000
+      internalID: -971690555889671016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 240
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19e99f7ab55dff70800000000000000
+      internalID: 9222621871417714974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 145
+        width: 98
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9651377a8857101b0800000000000000
+      internalID: -5692139224234257047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3b875d222c46f80800000000000000
+      internalID: -8114147173748657168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 208
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb7f40e861dc1cc0800000000000000
+      internalID: -3738883342254244929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c434826f6aaa4a730800000000000000
+      internalID: 4009517202337710924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767590223d63d5260800000000000000
+      internalID: 7087881668988065639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d01aa53ee0310c70800000000000000
+      internalID: 8935476935340462296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3362ecb744c1e3940800000000000000
+      internalID: 5277686893785261619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 95
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25e99c064f78df00800000000000000
+      internalID: 1141802444374271274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856777633756c3330800000000000000
+      internalID: 3691937340046407256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 96
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a39cdf71b7789d70800000000000000
+      internalID: 9050115055439090600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ca964980571b6e0800000000000000
+      internalID: -1823547694398198748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52398aefef5e4860800000000000000
+      internalID: 7516050312164618844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbcea60b27c1e190800000000000000
+      internalID: -7934842080840463395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 33
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903d0c1db439abbf0800000000000000
+      internalID: -307771670670552311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871d30b71c2600cb0800000000000000
+      internalID: -4899807811447041672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Town3SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c40b1ad2b0d49750800000000000000
+      internalID: 6310898444434867399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Town3SpriteSheet_0: -6344434441773060082
+      Town3SpriteSheet_1: 6539056524973790608
+      Town3SpriteSheet_10: 9084774351342004460
+      Town3SpriteSheet_11: 3441511242338742441
+      Town3SpriteSheet_12: -971690555889671016
+      Town3SpriteSheet_13: 9222621871417714974
+      Town3SpriteSheet_14: -5692139224234257047
+      Town3SpriteSheet_15: -8114147173748657168
+      Town3SpriteSheet_16: -3738883342254244929
+      Town3SpriteSheet_17: 4009517202337710924
+      Town3SpriteSheet_18: 7087881668988065639
+      Town3SpriteSheet_19: 8935476935340462296
+      Town3SpriteSheet_2: -6666936832548723369
+      Town3SpriteSheet_20: 5277686893785261619
+      Town3SpriteSheet_21: 1141802444374271274
+      Town3SpriteSheet_22: 3691937340046407256
+      Town3SpriteSheet_23: 9050115055439090600
+      Town3SpriteSheet_24: -1823547694398198748
+      Town3SpriteSheet_25: 7516050312164618844
+      Town3SpriteSheet_26: -7934842080840463395
+      Town3SpriteSheet_27: -307771670670552311
+      Town3SpriteSheet_28: -4899807811447041672
+      Town3SpriteSheet_29: 6310898444434867399
+      Town3SpriteSheet_3: -8736548297285335692
+      Town3SpriteSheet_4: -8337377910238586195
+      Town3SpriteSheet_5: -7482038028914155083
+      Town3SpriteSheet_6: 5012365434545044214
+      Town3SpriteSheet_7: 3952628998904976313
+      Town3SpriteSheet_8: -3837797958041813689
+      Town3SpriteSheet_9: 4167925554090338441
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
