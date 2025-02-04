@@ -9379,7 +9379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c0e6de67e65348912e1d764089b8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 1200423000}
 --- !u!114 &1200423002
 MonoBehaviour:
   m_ObjectHideFlags: 0

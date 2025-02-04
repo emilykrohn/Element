@@ -32,6 +32,46 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         moveDirection = move.ReadValue<Vector2>();
+        if (moveDirection.x > 0)
+        {
+            animator.SetBool("Right", true);
+            animator.SetBool("Left", false);
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", false);
+            animator.SetBool("Idle", false);
+        }
+        else if (moveDirection.x < 0)
+        {
+            animator.SetBool("Right", false);
+            animator.SetBool("Left", true);
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", false);
+            animator.SetBool("Idle", false);
+        }
+        else if (moveDirection.y > 0)
+        {
+            animator.SetBool("Right", false);
+            animator.SetBool("Left", false);
+            animator.SetBool("Up", true);
+            animator.SetBool("Down", false);
+            animator.SetBool("Idle", false);
+        }
+        else if (moveDirection.y < 0)
+        {
+            animator.SetBool("Right", false);
+            animator.SetBool("Left", false);
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", true);
+            animator.SetBool("Idle", false);
+        }
+        else if (moveDirection.x == 0)
+        {
+            animator.SetBool("Right", false);
+            animator.SetBool("Left", false);
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", false);
+            animator.SetBool("Idle", true);
+        }
     }
 
     void FixedUpdate()
