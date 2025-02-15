@@ -1,6 +1,6 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/USS/BattleUI.uss?fileID=7433441132597879392&amp;guid=6f1e235d00654d843946d94b21dba62f&amp;type=3#BattleUI" />
-    <engine:VisualElement style="flex-grow: 1; height: 10%;" />
+    <engine:VisualElement name="TopContainer" style="flex-grow: 1; height: 10%;" />
     <engine:VisualElement name="EnemyContainer" style="flex-grow: 1; height: 35%;">
         <engine:VisualElement name="EnemyMonster" style="flex-grow: 1; align-self: flex-end; width: 25%; margin-right: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4154780841294389669&amp;guid=40483403a06992645a593052a123c845&amp;type=3#arrow-down&quot;);" />
     </engine:VisualElement>
