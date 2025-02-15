@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -12,8 +13,8 @@ public class PlayerCollision : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > cooldownEncounter)
             {
-                Debug.Log("Encounter");
                 timer = 0f;
+                SceneManager.LoadScene("BattleScene");
             }
         }
     }
