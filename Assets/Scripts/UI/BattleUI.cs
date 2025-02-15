@@ -48,7 +48,12 @@ void OnEnable()
 
     void FirstAttackAction(ClickEvent evt)
     {
-        Debug.Log("First Attack");
+        enemyMonster.health -= playerMonster.firstAttack.attackPower;
+        Debug.Log(enemyMonster.health);
+        if (enemyMonster.health <= 0)
+        {
+            Debug.Log("Enemy Defeated");
+        }
     }
     void SecondAttackAction(ClickEvent evt)
     {
