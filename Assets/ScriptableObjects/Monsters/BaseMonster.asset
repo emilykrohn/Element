@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   firstAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}
+  secondAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}
+  thirdAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}
+  fourthAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}

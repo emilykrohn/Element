@@ -5,6 +5,8 @@ using UnityEngine.UIElements;
 
 public class BattleUI : MonoBehaviour
 {
+    [SerializeField] Monster playerMonster;
+    [SerializeField] Monster enemyMonster;
     UnityEngine.UIElements.Button attackButton;
     UnityEngine.UIElements.VisualElement mainButtonsContainer;
     UnityEngine.UIElements.VisualElement attackButtonsContainer;

@@ -5,4 +5,7 @@ public class Monster : ScriptableObject
 {
     [SerializeField] int health = 10;
     [SerializeField] Attack firstAttack;
+    [SerializeField] Attack secondAttack;
+    [SerializeField] Attack thirdAttack;
+    [SerializeField] Attack fourthAttack;
 }
