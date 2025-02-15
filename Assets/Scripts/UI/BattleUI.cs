@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,8 +8,11 @@ public class BattleUI : MonoBehaviour
     UnityEngine.UIElements.Button attackButton;
     UnityEngine.UIElements.VisualElement mainButtonsContainer;
     UnityEngine.UIElements.VisualElement attackButtonsContainer;
-
-    void OnEnable()
+    UnityEngine.UIElements.Button firstAttackButton;
+    UnityEngine.UIElements.Button secondAttackButton;
+    UnityEngine.UIElements.Button thirdAttackButton;
+    UnityEngine.UIElements.Button fourthAttackButton;
+void OnEnable()
     {
         UIDocument uiDoc = GetComponent<UIDocument>();
 
@@ -19,6 +21,16 @@ public class BattleUI : MonoBehaviour
 
         mainButtonsContainer = uiDoc.rootVisualElement.Q("MainButtons") as UnityEngine.UIElements.VisualElement;
         attackButtonsContainer = uiDoc.rootVisualElement.Q("AttackButtons") as UnityEngine.UIElements.VisualElement;
+
+        firstAttackButton = uiDoc.rootVisualElement.Q("FirstAttack") as UnityEngine.UIElements.Button;
+        secondAttackButton = uiDoc.rootVisualElement.Q("SecondAttack") as UnityEngine.UIElements.Button;
+        thirdAttackButton = uiDoc.rootVisualElement.Q("ThirdAttack") as UnityEngine.UIElements.Button;
+        fourthAttackButton = uiDoc.rootVisualElement.Q("FourthAttack") as UnityEngine.UIElements.Button;
+
+        firstAttackButton.RegisterCallback<ClickEvent>(FirstAttackAction);
+        secondAttackButton.RegisterCallback<ClickEvent>(SecondAttackAction);
+        thirdAttackButton.RegisterCallback<ClickEvent>(ThirdAttackAction);
+        fourthAttackButton.RegisterCallback<ClickEvent>(FourthAttackAction);
     }
 
     void OnDisable()
@@ -30,5 +42,22 @@ public class BattleUI : MonoBehaviour
     {
         mainButtonsContainer.style.display = DisplayStyle.None;
         attackButtonsContainer.style.display = DisplayStyle.Flex;
+    }
+
+    void FirstAttackAction(ClickEvent evt)
+    {
+        Debug.Log("First Attack");
+    }
+    void SecondAttackAction(ClickEvent evt)
+    {
+        Debug.Log("Second Attack");
+    }
+    void ThirdAttackAction(ClickEvent evt)
+    {
+        Debug.Log("Third Attack");
+    }
+    void FourthAttackAction(ClickEvent evt)
+    {
+        Debug.Log("Fourth Attack");
     }
 }
