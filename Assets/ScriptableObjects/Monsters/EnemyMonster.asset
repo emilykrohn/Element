@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29a13c10344b8ec4a9dde1f7acb9f733, type: 3}
-  m_Name: BaseMonster
+  m_Name: EnemyMonster
   m_EditorClassIdentifier: 
-  health: 0
+  health: 10
   firstAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}
   secondAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}
   thirdAttack: {fileID: 11400000, guid: 5f11bedee9fcd724a9ab2420cada0d61, type: 2}

@@ -1,12 +1,10 @@
-using UnityEditor.UIElements;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.UIElements;
 
 public class BattleUI : MonoBehaviour
 {
-    [SerializeField] Monster playerMonster;
-    [SerializeField] Monster enemyMonster;
+    PlayerMonster playerMonster;
+    EnemyMonster enemyMonster;
     UnityEngine.UIElements.Button attackButton;
     UnityEngine.UIElements.VisualElement mainButtonsContainer;
     UnityEngine.UIElements.VisualElement attackButtonsContainer;
@@ -14,7 +12,14 @@ public class BattleUI : MonoBehaviour
     UnityEngine.UIElements.Button secondAttackButton;
     UnityEngine.UIElements.Button thirdAttackButton;
     UnityEngine.UIElements.Button fourthAttackButton;
-void OnEnable()
+
+    void Start()
+    {
+        playerMonster = GetComponent<PlayerMonster>();
+        enemyMonster = GetComponent<EnemyMonster>();
+    }
+
+    void OnEnable()
     {
         UIDocument uiDoc = GetComponent<UIDocument>();
 
@@ -48,12 +53,7 @@ void OnEnable()
 
     void FirstAttackAction(ClickEvent evt)
     {
-        enemyMonster.health -= playerMonster.firstAttack.attackPower;
-        Debug.Log(enemyMonster.health);
-        if (enemyMonster.health <= 0)
-        {
-            Debug.Log("Enemy Defeated");
-        }
+        playerMonster.FirstAttack();
     }
     void SecondAttackAction(ClickEvent evt)
     {
