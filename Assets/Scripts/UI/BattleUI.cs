@@ -103,7 +103,6 @@ public class BattleUI : MonoBehaviour
     {
         if (isDefeated && pressedNext)
         {
-            Debug.Log("Interact");
             SceneManager.LoadScene("GameScene");
         }
     }
