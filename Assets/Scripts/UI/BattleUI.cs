@@ -1,6 +1,7 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class BattleUI : MonoBehaviour
 {
@@ -14,12 +15,22 @@ public class BattleUI : MonoBehaviour
     UnityEngine.UIElements.Button secondAttackButton;
     UnityEngine.UIElements.Button thirdAttackButton;
     UnityEngine.UIElements.Button fourthAttackButton;
-    UnityEngine.UIElements.Label textbox;
+    bool isDefeated;
+    bool pressedNext;
+    public InputSystem_Actions playerControls;
+    private InputAction interact;
+
+    private void Awake()
+    {
+        playerControls = new InputSystem_Actions();
+    }
 
     void Start()
     {
         playerMonster = GetComponent<PlayerMonster>();
         enemyMonster = GetComponent<EnemyMonster>();
+        isDefeated = false;
+        pressedNext = false;
     }
 
     void OnEnable()
@@ -42,11 +53,16 @@ public class BattleUI : MonoBehaviour
         secondAttackButton.RegisterCallback<ClickEvent>(SecondAttackAction);
         thirdAttackButton.RegisterCallback<ClickEvent>(ThirdAttackAction);
         fourthAttackButton.RegisterCallback<ClickEvent>(FourthAttackAction);
+
+        interact = playerControls.Player.Interact;
+        interact.Enable();
+        interact.performed += Interact;
     }
 
     void OnDisable()
     {
         attackButton.UnregisterCallback<ClickEvent>(OpenAttackMenu);
+        interact.Disable();
     }
 
     void OpenAttackMenu(ClickEvent evt)
@@ -61,6 +77,8 @@ public class BattleUI : MonoBehaviour
         {
             attackButtonsContainer.style.display = DisplayStyle.None;
             textboxContainer.style.display = DisplayStyle.Flex;
+            pressedNext = false;
+            isDefeated = true;
         }
     }
     void SecondAttackAction(ClickEvent evt)
@@ -74,5 +92,19 @@ public class BattleUI : MonoBehaviour
     void FourthAttackAction(ClickEvent evt)
     {
         Debug.Log("Fourth Attack");
+    }
+
+    void Interact(InputAction.CallbackContext context)
+    {
+        pressedNext = true;
+    }
+
+    void Update()
+    {
+        if (isDefeated && pressedNext)
+        {
+            Debug.Log("Interact");
+            pressedNext = false;
+        }
     }
 }
