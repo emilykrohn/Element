@@ -19,5 +19,8 @@
             <engine:Button text="Attack" name="ThirdAttack" class="attackButtons" />
             <engine:Button text="Attack" name="FourthAttack" class="attackButtons" />
         </engine:VisualElement>
+        <engine:VisualElement name="TextboxContainer" style="flex-grow: 1; flex-direction: row; display: none;">
+            <engine:Label text="Enemy was defeated" name="Textbox" style="align-self: center; justify-content: space-evenly; align-items: stretch; align-content: auto; flex-direction: row; width: 100%; -unity-background-image-tint-color: rgb(255, 255, 255); font-size: 30px; flex-grow: 0; padding-left: 40px; padding-right: 40px;" />
+        </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>

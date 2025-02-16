@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -8,10 +9,12 @@ public class BattleUI : MonoBehaviour
     UnityEngine.UIElements.Button attackButton;
     UnityEngine.UIElements.VisualElement mainButtonsContainer;
     UnityEngine.UIElements.VisualElement attackButtonsContainer;
+    UnityEngine.UIElements.VisualElement textboxContainer;
     UnityEngine.UIElements.Button firstAttackButton;
     UnityEngine.UIElements.Button secondAttackButton;
     UnityEngine.UIElements.Button thirdAttackButton;
     UnityEngine.UIElements.Button fourthAttackButton;
+    UnityEngine.UIElements.Label textbox;
 
     void Start()
     {
@@ -28,6 +31,7 @@ public class BattleUI : MonoBehaviour
 
         mainButtonsContainer = uiDoc.rootVisualElement.Q("MainButtons") as UnityEngine.UIElements.VisualElement;
         attackButtonsContainer = uiDoc.rootVisualElement.Q("AttackButtons") as UnityEngine.UIElements.VisualElement;
+        textboxContainer = uiDoc.rootVisualElement.Q("TextboxContainer") as UnityEngine.UIElements.VisualElement;
 
         firstAttackButton = uiDoc.rootVisualElement.Q("FirstAttack") as UnityEngine.UIElements.Button;
         secondAttackButton = uiDoc.rootVisualElement.Q("SecondAttack") as UnityEngine.UIElements.Button;
@@ -53,7 +57,11 @@ public class BattleUI : MonoBehaviour
 
     void FirstAttackAction(ClickEvent evt)
     {
-        playerMonster.FirstAttack();
+        if (!playerMonster.FirstAttack())
+        {
+            attackButtonsContainer.style.display = DisplayStyle.None;
+            textboxContainer.style.display = DisplayStyle.Flex;
+        }
     }
     void SecondAttackAction(ClickEvent evt)
     {

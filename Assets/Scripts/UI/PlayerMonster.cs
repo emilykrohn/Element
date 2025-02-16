@@ -10,13 +10,15 @@ public class PlayerMonster : MonoBehaviour
         enemyMonster = GetComponent<EnemyMonster>();
     }
 
-    public void FirstAttack()
+    public bool FirstAttack()
     {
         enemyMonster.health -= playerMonster.firstAttack.attackPower;
         Debug.Log(enemyMonster.health);
         if (enemyMonster.health <= 0)
         {
             Debug.Log("Enemy Defeated");
+            return false;
         }
+        return true;
     }
 }
