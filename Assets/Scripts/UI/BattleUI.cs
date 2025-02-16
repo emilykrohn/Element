@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Controls;
+using UnityEngine.SceneManagement;
 
 public class BattleUI : MonoBehaviour
 {
@@ -104,7 +104,7 @@ public class BattleUI : MonoBehaviour
         if (isDefeated && pressedNext)
         {
             Debug.Log("Interact");
-            pressedNext = false;
+            SceneManager.LoadScene("GameScene");
         }
     }
 }
