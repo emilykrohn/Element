@@ -4,10 +4,12 @@ public class PlayerMonster : MonoBehaviour
 {
     [SerializeField] Monster playerMonster;
     EnemyMonster enemyMonster;
+    public int health = 10;
 
     void Start()
     {
         enemyMonster = GetComponent<EnemyMonster>();
+        health = playerMonster.health;
     }
 
     public bool FirstAttack()

@@ -15,6 +15,8 @@ public class BattleUI : MonoBehaviour
     UnityEngine.UIElements.Button secondAttackButton;
     UnityEngine.UIElements.Button thirdAttackButton;
     UnityEngine.UIElements.Button fourthAttackButton;
+    UnityEngine.UIElements.ProgressBar playerHealthBar;
+    UnityEngine.UIElements.ProgressBar enemyHealthBar;
     bool isDefeated;
     bool pressedNext;
     public InputSystem_Actions playerControls;
@@ -27,8 +29,6 @@ public class BattleUI : MonoBehaviour
 
     void Start()
     {
-        playerMonster = GetComponent<PlayerMonster>();
-        enemyMonster = GetComponent<EnemyMonster>();
         isDefeated = false;
         pressedNext = false;
     }
@@ -43,6 +43,17 @@ public class BattleUI : MonoBehaviour
         mainButtonsContainer = uiDoc.rootVisualElement.Q("MainButtons") as UnityEngine.UIElements.VisualElement;
         attackButtonsContainer = uiDoc.rootVisualElement.Q("AttackButtons") as UnityEngine.UIElements.VisualElement;
         textboxContainer = uiDoc.rootVisualElement.Q("TextboxContainer") as UnityEngine.UIElements.VisualElement;
+
+        playerHealthBar = uiDoc.rootVisualElement.Q("PlayerHealthBar") as UnityEngine.UIElements.ProgressBar;
+        enemyHealthBar = uiDoc.rootVisualElement.Q("EnemyHealthBar") as UnityEngine.UIElements.ProgressBar;
+        
+        playerMonster = GetComponent<PlayerMonster>();
+        enemyMonster = GetComponent<EnemyMonster>();
+        
+        playerHealthBar.highValue = playerMonster.health;
+        playerHealthBar.value = playerMonster.health;
+        enemyHealthBar.highValue = enemyMonster.health;
+        enemyHealthBar.value = enemyMonster.health;
 
         firstAttackButton = uiDoc.rootVisualElement.Q("FirstAttack") as UnityEngine.UIElements.Button;
         secondAttackButton = uiDoc.rootVisualElement.Q("SecondAttack") as UnityEngine.UIElements.Button;
@@ -80,6 +91,7 @@ public class BattleUI : MonoBehaviour
             pressedNext = false;
             isDefeated = true;
         }
+        enemyHealthBar.value = enemyMonster.health;
     }
     void SecondAttackAction(ClickEvent evt)
     {
