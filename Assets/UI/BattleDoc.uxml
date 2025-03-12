@@ -1,14 +1,19 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/USS/BattleUI.uss?fileID=7433441132597879392&amp;guid=6f1e235d00654d843946d94b21dba62f&amp;type=3#BattleUI" />
-    <engine:VisualElement name="TopContainer" style="flex-grow: 1; height: 10%;" />
-    <engine:VisualElement name="EnemyContainer" style="flex-grow: 1; height: 35%;">
+    <engine:VisualElement name="EnemyStatsContainer" style="flex-grow: 1; height: 10%; -unity-text-align: upper-left; flex-direction: row-reverse;">
+        <engine:ProgressBar value="22" name="EnemyHealthBar" class="healthBar" style="-unity-text-align: upper-center;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="EnemyContainer" style="flex-grow: 1; height: 30%;">
         <engine:VisualElement name="EnemyMonster" style="flex-grow: 1; align-self: flex-end; width: 25%; margin-right: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4154780841294389669&amp;guid=40483403a06992645a593052a123c845&amp;type=3#arrow-down&quot;);" />
     </engine:VisualElement>
-    <engine:VisualElement name="PlayerContainer" style="flex-grow: 1; height: 35%;">
+    <engine:VisualElement name="PlayerContainer" style="flex-grow: 1; height: 30%;">
         <engine:VisualElement name="PlayerMonster" style="flex-grow: 1; width: 25%; margin-left: 10%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4154780841294389669&amp;guid=40483403a06992645a593052a123c845&amp;type=3#arrow-down&quot;);" />
     </engine:VisualElement>
+    <engine:VisualElement name="PlayerStatsContainer" style="flex-grow: 1; height: 10%;">
+        <engine:ProgressBar value="22" name="PlayerHealthBar" class="healthBar" />
+    </engine:VisualElement>
     <engine:VisualElement name="MenuContainer" style="flex-grow: 1; height: 20%; flex-direction: row; width: 100%; justify-content: center; align-self: center; visibility: visible; display: flex;">
-        <engine:VisualElement name="MainButtons" style="flex-grow: 1; flex-direction: row; align-self: auto; align-content: auto; justify-content: center; visibility: visible; display: flex;">
+        <engine:VisualElement name="MainButtons" style="flex-grow: 1; flex-direction: row; align-self: auto; align-content: auto; justify-content: center; visibility: visible; display: flex; height: auto;">
             <engine:Button text="Attack" name="AttackButton" class="MainButtons" />
             <engine:Button text="Items" name="ItemsButton" class="MainButtons" />
             <engine:Button text="Escape" name="EscapeButton" class="MainButtons" />

@@ -19,3 +19,9 @@
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
+.healthBar {
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+}
