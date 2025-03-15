@@ -5,3 +5,4 @@
 *.uxml eol=crlf
 *.uss eol=crlf
 *.xsd eol=crlf
+*.png -text
