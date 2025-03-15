@@ -1,4 +1,4 @@
-.button {
+.MainButtons {
     width: 20%;
     margin-top: 10px;
     margin-right: 10px;
@@ -9,4 +9,19 @@
     height: 40%;
     justify-content: flex-start;
     align-self: center;
+}
+
+.attackButtons {
+    width: 20%;
+    height: 50%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.healthBar {
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
 }
